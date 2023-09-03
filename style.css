@@ -1,0 +1,173 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 10%;
+    padding-left: 136px;
+}
+
+.contaner-right {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 120vh;
+    width: 40%;
+    position: absolute;
+}
+
+img {
+    position: relative;
+    margin-top: 20%;
+    right: 130px;
+}
+
+h1 {
+    width: 480px;
+    font-size: 60px;
+    opacity: .6;
+
+}
+
+p {
+
+    font-size: 20px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.4;
+    margin: 15px 0 50px 0;
+    width: 540px;
+}
+
+button {
+
+    fill: #9499EA;
+    filter: drop-shadow(0px 10px 24px rgba(148, 153, 234, 0.10));
+    background-color: #9499ea;
+
+    width: 270px;
+    height: 62px;
+    flex-shrink: 0;
+
+
+    font-size: 24px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: .6;
+}
+
+button:active {
+    opacity: .8;
+}
+
+header {
+
+    color: #5D5D7D;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+    color: #5D5D7D;
+    margin-top: 25px;
+
+}
+
+a {
+    margin-left: 35px;
+    cursor: pointer;
+
+}
+
+.op {
+    opacity: 0.4;
+}
+
+.op:hover {
+    opacity: 10;
+}
+
+.op:active {
+    opacity: 0.8;
+}
+
+a:hover {
+    opacity: 0.4;
+}
+
+a:active {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 900px) {
+    .container-left {
+        width: 100%;
+        height: 45%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .contaner-right {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0;
+        position: static;
+        padding: 40px;
+
+    }
+
+    img {
+
+        position: static;
+        width: 95%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+        line-height: 52px;
+        font-style: normal;
+        margin: 58PX 53PX 15PX 54PX;
+    }
+
+    p {
+
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        font-style: normal;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto 0;
+
+    }
+
+}
